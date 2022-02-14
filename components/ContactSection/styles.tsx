@@ -13,6 +13,7 @@ export const MainContainer = styled.div`
 `;
 
 export const MainWrapper = styled.div`
+  display: flex;
   max-width: 75rem;
   margin-left: auto;
   margin-right: auto;
@@ -36,4 +37,5 @@ export const MainRow = styled.div`
 
 export const OpeningHoursList = styled.ul`
   list-style: none;
+  padding: 0;
 `;

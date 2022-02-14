@@ -1,8 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const MainContainer = styled.div`
   color: #fff;
-  background: ${({ lightBg }: any) => (lightBg ? "#f9f9f9" : "#929696")};
+  background: ${({ lightBg }: any) => (lightBg ? '#f9f9f9' : '#929696')};
   padding-top: 8rem;
   padding-bottom: 8rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
@@ -21,29 +21,20 @@ export const MainWrapper = styled.div`
 `;
 
 export const MainRow = styled.div`
-  /* display: grid; */
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   align-items: center;
   margin-left: -1rem;
   margin-right: -1rem;
-  grid-auto-columns: minmax(auto, 1fr);
+  justify-content: space-between;
 
   @media (max-width: 991px) {
     flex-direction: column-reverse;
   }
-  
-  grid-template-areas: ${({ imgStart }: any) =>
-    imgStart ? `'col2 col1'` : `'col1 col2'`};
-
-  @media screen and (max-width: 768px) {
-    grid-template-areas: ${({ imgStart }: any) =>
-      imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
-  }
 `;
 
 export const Column1 = styled.div`
-  width: 40%;
+  flex: 0 0 40%;
   padding-left: 1rem;
   padding-right: 1rem;
   @media (max-width: 991px) {
@@ -52,7 +43,7 @@ export const Column1 = styled.div`
 `;
 
 export const Column2 = styled.div`
-  width: 60%;
+  flex: 0 0 50%;
   padding-left: 1rem;
   padding-right: 1rem;
   @media (max-width: 991px) {
@@ -67,7 +58,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-  color: #7755e2;
+  color: #2e5da8;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -79,7 +70,7 @@ export const Heading = styled.h1`
   line-height: 1.2;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
-  color: ${({ lightText }: any) => (lightText ? "#f7f8fa" : "#010606")};
+  color: ${({ lightText }: any) => (lightText ? '#f7f8fa' : '#010606')};
 
   @media (min-width: 992px) {
     max-width: 20rem;
@@ -93,11 +84,11 @@ export const Subtitle = styled.p`
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 2rem;
-  color: ${({ darkText }: any) => (darkText ? "#010606" : "#fff")};
+  color: ${({ darkText }: any) => (darkText ? '#010606' : '#fff')};
 `;
 
 export const BtnWrap = styled.div`
-    /* display: flex;
+  /* display: flex;
     justify-content: flex-start; */
 `;
 

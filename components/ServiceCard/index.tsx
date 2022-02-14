@@ -15,29 +15,29 @@ const ServiceCard = ({id, ...props}:any) => {
   return (
     <ServiceSection id={id} {...props}>
       <ServiceContainer>
-        <ServiceH1>Explore featured Courses</ServiceH1>
+        <ServiceH1>Explore Fishmongers Plaice </ServiceH1>
         <ServiceWrapper>
           <ServicesColumn>
             <ServicesCard>
               <ServiceIcon src="/assets/oysters.jpg" />
-              <ServiceH2>Getting started with JavaScript</ServiceH2>
-              <ServiceP>ES6 and Beyond</ServiceP>
+              <ServiceH2>Oysters & Cavier</ServiceH2>
+              <ServiceP></ServiceP>
             </ServicesCard>
           </ServicesColumn>
 
           <ServicesColumn>
             <ServicesCard>
               <ServiceIcon src="/assets/crab.jpg" />
-              <ServiceH2>Django & Python for beginners</ServiceH2>
-              <ServiceP>Django Rest Framework</ServiceP>
+              <ServiceH2>Crabs & Lobsters</ServiceH2>
+              <ServiceP></ServiceP>
             </ServicesCard>
           </ServicesColumn>
 
           <ServicesColumn>
             <ServicesCard>
               <ServiceIcon src="/assets/tigerprawns.jpg" />
-              <ServiceH2>Deep dive to understanding HTML & CSS</ServiceH2>
-              <ServiceP>HTML & CSS Fundamentals</ServiceP>
+              <ServiceH2>Assorted Prawns</ServiceH2>
+              <ServiceP></ServiceP>
             </ServicesCard>
           </ServicesColumn>
         </ServiceWrapper>

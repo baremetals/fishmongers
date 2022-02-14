@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Head from 'next/head';
 import HeroSection from '../components/HeroSection';
 import MainSection from '../components/MainSection';
@@ -6,11 +6,9 @@ import ServicesCard from '../components/ServiceCard';
 import {
   homeObjOne,
   homeObjTwo,
-  homeObjThree,
 } from '../components/MainSection/Data';
 
 import NavBar from '../components/NavBar/NavBar';
-import { useState } from 'react';
 import Footer from '../components/Footer/Footer';
 import NavDropDown from '../components/NavDropDown';
 import ContactSection from '../components/ContactSection';

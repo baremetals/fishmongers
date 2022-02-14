@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-scroll';
 
 export const Button = styled(Link)`
-  background-color: #7755e2;
+  background-color: #2e5da8;
   color: #fff;
   font-size: 1rem;
   border-radius: 10rem;
@@ -17,7 +17,7 @@ export const Button = styled(Link)`
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    color: #7755e2;
+    color: #2e5da8;
     background-color: #fff;
   }
   @media (max-width: 991px) {

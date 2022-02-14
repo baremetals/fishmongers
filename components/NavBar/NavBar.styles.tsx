@@ -54,11 +54,11 @@ export const NavLink = styled(Link)`
   cursor: pointer;
 
   &.active {
-    color: #7755e2;
+    color: #2e5da8;
   }
 
   &:hover {
-    color: #7755e2;
+    color: #2e5da8;
   }
 `;
 
@@ -97,7 +97,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled.button`
   border-radius: 4px;
-  background: #7755e2;
+  background: #2e5da8;
   padding: 10px 22px;
   color: #fff;
   font-size: 14px;

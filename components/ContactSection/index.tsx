@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   MainContainer,
-  MainRow,
   MainWrapper,
   OpeningHoursList,
 } from './styles';
@@ -10,7 +9,6 @@ const Contact = ({ id, ...props }: any) => {
   return (
     <MainContainer id={id} {...props}>
       <MainWrapper>
-        {/* <MainRow> */}
         <div>
           <h3>Home delivery is available</h3>
           <p>
@@ -19,18 +17,18 @@ const Contact = ({ id, ...props }: any) => {
           </p>
           <p>Email: </p>
           <p>Telephone: 020 8768 2960</p>
-        </div>
-        <div>
-          <p>Opening hours</p>
-          <OpeningHoursList>
-            <li>Monday: closed</li>
-            <li>Tuesday: 9am-4pm</li>
-            <li>Wednesday: 9am-3pm</li>
-            <li>Thursday: 9am-4pm</li>
-            <li>Friday: 9am-4pm</li>
-            <li>Saturday: 9am-4pm</li>
-            <li>Sunday: closed</li>
-          </OpeningHoursList>
+          <div>
+            <p>Opening hours</p>
+            <OpeningHoursList>
+              <li>Monday: closed</li>
+              <li>Tuesday: 9am-4pm</li>
+              <li>Wednesday: 9am-3pm</li>
+              <li>Thursday: 9am-4pm</li>
+              <li>Friday: 9am-4pm</li>
+              <li>Saturday: 9am-4pm</li>
+              <li>Sunday: closed</li>
+            </OpeningHoursList>
+          </div>
         </div>
         <div className='mapouter'>
           <div className='gmap_canvas'>
