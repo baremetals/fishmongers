@@ -15,7 +15,7 @@ const Contact = ({ id, ...props }: any) => {
             Local home delivery is available for orders over £20. orders can be
             ppaced by email or telphone
           </p>
-          <p>Email: </p>
+          <p>Email: info@fishmongersplaice.co.uk</p>
           <p>Telephone: 020 8768 2960</p>
           <div>
             <p>Opening hours</p>
