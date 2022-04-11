@@ -9,7 +9,7 @@ import {
 } from '../components/MainSection/Data';
 
 import NavBar from '../components/NavBar/NavBar';
-import Footer from '../components/Footer/Footer';
+import Footer from '../components/Footer';
 import NavDropDown from '../components/NavDropDown';
 import ContactSection from '../components/ContactSection';
 

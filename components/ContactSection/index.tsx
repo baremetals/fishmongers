@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import {
   MainContainer,
@@ -10,10 +11,10 @@ const Contact = ({ id, ...props }: any) => {
     <MainContainer id={id} {...props}>
       <MainWrapper>
         <div>
-          <h3>Home delivery is available</h3>
+          <h3>Home delivery available</h3>
           <p>
-            Local home delivery is available for orders over £20. orders can be
-            ppaced by email or telphone
+            Local home delivery is available. Please use Deliveroo
+            or Uber Eats.
           </p>
           <p>Email: info@fishmongersplaice.co.uk</p>
           <p>Telephone: 020 8768 2960</p>
@@ -28,6 +29,21 @@ const Contact = ({ id, ...props }: any) => {
               <li>Saturday: 9am-4pm</li>
               <li>Sunday: closed</li>
             </OpeningHoursList>
+          </div>
+          <div>
+            <img
+              src='/assets/deliveroo.png'
+              style={{ width: '200px' }}
+              alt='deliveroo logo'
+              // layout='fill'
+            />
+          </div>
+          <div>
+            <img
+              src='/assets/uber-eats.webp'
+              style={{ width: '200px' }}
+              alt='Uber Eats logo'
+            />
           </div>
         </div>
         <div className='mapouter'>
