@@ -13,8 +13,8 @@ const Contact = ({ id, ...props }: any) => {
         <div>
           <h3>Home delivery available</h3>
           <p>
-            Local home delivery is available. Please use Deliveroo
-            or Uber Eats.
+            For home delivery or store pick up, please use the Deliveroo
+            or Uber Eats app.
           </p>
           <p>Email: info@fishmongersplaice.co.uk</p>
           <p>Telephone: 020 8768 2960</p>
